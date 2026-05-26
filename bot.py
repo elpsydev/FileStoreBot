@@ -42,7 +42,7 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Franited for support")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/eL_Psy_Congroooo for support")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
@@ -59,7 +59,7 @@ class Bot(Client):
         await web.TCPSite(app, "0.0.0.0", PORT).start()
 
 
-        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @Franited</blockquote></b>")
+        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @eL_Psy_Congroooo</blockquote></b>")
         except: pass
 
     async def stop(self, *args):
