@@ -32,7 +32,7 @@ PORT = os.environ.get("PORT", "8001")
 DB_URI = os.environ.get("DATABASE_URL", "https://t.me/+I2FrLDdw2WUzYTY9")
 DB_NAME = os.environ.get("DATABASE_NAME", "Data Base AF")
 #--------------------------------------------
-FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
+FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/HAnimeSupportGroup")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
@@ -41,11 +41,11 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/72e5b2695a6d90f8
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @TheJonesNetwork\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n\nꜱɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴀɴᴅ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛꜱ ɪᴛ.....!\n\n</blockquote>\nᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/Franited>​̲ꜰʀᴀɴɪᴛᴇᴅ​̲</a></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Sire_Jones>Yasir</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/TheJonesNetwork>Team Jones Network</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/MorimoFlix>MorimoFlix</a>\n◈ ᴏɴɢɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/MorimoFlix_Ongoing>OngoingAnime</a>\n◈ ʜᴇʟᴘ : <a href=https://t.me/MorimoFlix_Zone>Helper</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Franited>Franited</a></blockquote></b>"
+HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @HAnime_And_Porn_Verse\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n\nꜱɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴀɴᴅ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛꜱ ɪᴛ.....!\n\n</blockquote>\nᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/eL_Psy_Congroooo>𝐙𝐞𝐧𝐢𝐧​</a></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/eL_Psy_Congroooo>𝐙𝐞𝐧𝐢𝐧</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/HAnime_And_Porn_Verse>Alone Founder</a>\n◈ ʜᴇʟᴘ : <a href=https://t.me/HAnimeSupportGroup>Helper</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/eL_Psy_Congrooo></a>𝐙𝐞𝐧𝐢𝐧</blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ʜᴇʀᴇ ᴡᴇ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ʜᴇɴᴛᴀ! ᴀɴᴅ ᴘʀᴏɴ, sᴏ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ.</blockquote></b>")
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
 
 CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
