@@ -46,12 +46,12 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/Franited")
-        self.LOGGER(__name__).info(f"""BOT DEPLOYED BY @Franited""")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/eL_Psy_congroooo")
+        self.LOGGER(__name__).info(f"""BOT DEPLOYED BY @eL_Psy_congroooo""")
 
         self.set_parse_mode(ParseMode.HTML)
         self.username = usr_bot_me.username
-        self.LOGGER(__name__).info(f"Bot Running..! Made by @Franited")   
+        self.LOGGER(__name__).info(f"Bot Running..! Made by @eL_Psy_Congroooo")   
 
         # Start Web Server
         app = web.AppRunner(await web_server())
@@ -70,7 +70,7 @@ class Bot(Client):
         """Run the bot."""
         loop = asyncio.get_event_loop()
         loop.run_until_complete(self.start())
-        self.LOGGER(__name__).info("Bot is now running. Thanks to @Franited")
+        self.LOGGER(__name__).info("Bot is now running. Thanks to @eL_sy_Congroooo")
         try:
             loop.run_forever()
         except KeyboardInterrupt:
